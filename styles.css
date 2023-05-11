@@ -1,0 +1,43 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+
+}
+
+
+
+body{
+
+
+       
+        line-height: 1.8;
+        margin: 1;
+        padding: 10;
+        background-color: rgba(155, 212, 212, 0.966);
+        width: 100%;
+        height: 10vh;
+    
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+   
+   
+    .container {
+        front-family: Arial,sans-serif;
+        line-height: 1;
+        margin: 1;
+        padding: 3;
+        background-color: rgb(67, 79, 187);
+        width: 100%;
+        height: 10vh;
+    }
+}
+
+
+.btn.button {
+    margin-top: 35px;
+    background-color: blue;
+    color: rgb(67, 69, 175);
+    border: 1px solid rgb(69, 50, 153)
+    padding: 15px ;
+ }
