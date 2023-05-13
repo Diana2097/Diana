@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.profile-image {
+    text-align: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ajusta la imagen para que se ajuste dentro del contenedor */
+}
+
+.for-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.section {
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.form-label {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ 
