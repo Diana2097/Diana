@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javascriptpresentacion.js"></script>
     <link rel="stylesheet" href="style presentacion.css">
     <title>Dianasoler</title>
 </head>
@@ -13,8 +14,9 @@
     <div class="profile-image">
         <img src="img/WhatsApp Image 2023-05-12 at 9.24.57 PM.jpeg" alt="img-cluster-amarillo">
     </div>
-    
-    <h1 class="for-title">¡PUBLICISTA Y MERCADOLOGA!</h1>
+
+    <h1 class="title title--1">¡PUBLICISTA Y MERCADOLOGA!</h1>
+    <div id="datos"></div>
 
     <div class="section">
         <h2>Información personal</h2>
@@ -22,7 +24,7 @@
         <p><strong>Email:</strong> Dianasoler.20@gmail.com</p>
         <p><strong>Teléfono:</strong> 3208436716</p>
     </div>
-  
+
     <div class="section">
         <h2>Educación</h2>
         <h3>Fundacion Universitaria los libertadores</h3>
@@ -30,8 +32,14 @@
         <p><strong>Año:</strong> 2019-2023</p>
     </div>
 
-    <label for="mensaje" class="form-label">¿Quieres conocer mis proyectos?</label>
-    <input type="submit" class="btn-submit" value="click">
+    <label for="mensaje" class="form-label">¿Tus opiniones?</label>
+
+    <button onclick="agregarDatos()">¿opiniones?</button>
+   
+    <button onclick="setDarkMode()">Modo Oscuro</button>
+    <button onclick="setLightMode()">Modo Claro</button>
+
+   
 </body>
 
 </html>
