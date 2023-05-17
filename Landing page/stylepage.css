@@ -1,0 +1,127 @@
+.body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #880101;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color:#880101;
+            padding: 10px;
+        }
+        
+    
+        
+        .title {
+            display: inline-block;
+            margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+            font-size: 10px;
+            font-weight: bold;
+
+        }
+
+        .container {
+            position: relative;
+            width: 150%;
+            height: 350px; /* Ajusta la altura del contenedor según tus necesidades */
+            background-color: #f2f2f2;
+        }
+    
+
+        .logo-container img {
+           border-radius: 55%;
+            width: 180px;
+           height: 180px;
+           object-fit: cover; /* Ajusta la imagen para que se ajuste dentro del contenedor */
+           position: absolute;
+           top: 0;
+           left: 0;
+    
+}
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+ul.menu li a:hover {
+    background-color: #ccc;
+}
+
+        main {
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            
+        }
+
+
+        h3 {
+            color: #880101;
+            font-size: 24px;
+            margin-bottom: 10px;
+            
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #880101;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #880101;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
